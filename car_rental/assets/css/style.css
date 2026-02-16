@@ -75,6 +75,8 @@ p {
     color: white;
 }
 
+
+
 /* ================= CARDS ================= */
 .card {
     border: none;
@@ -229,38 +231,29 @@ p {
     background: #f0f0f0;
 }
 
-/* ================= INDEX PAGE REGISTER BUTTONS ================= */
-.index-register {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 40px;
+
+/* ================= INDEX NAVBAR REGISTER BUTTONS ================= */
+
+.navbar .customer-btn {
+    background-color: #0d6efd !important;
+    color: #ffffff !important;
+    border: none !important;
 }
 
-.index-register a {
-    padding: 15px 30px;
-    border-radius: 30px;
-    font-weight: 600;
-    text-decoration: none;
-    color: white;
-    transition: 0.3s;
-    font-size: 1.1rem;
+.navbar .customer-btn:hover {
+    background-color: #0b5ed7 !important;
 }
 
-.index-register .customer-btn {
-    background: linear-gradient(45deg, #007bff, #00c6ff);
+.navbar .agency-btn {
+    background-color: #ff5722 !important;
+    color: #ffffff !important;
+    border: none !important;
 }
 
-.index-register .customer-btn:hover {
-    transform: scale(1.05);
+.navbar .agency-btn:hover {
+    background-color: #e64a19 !important;
 }
 
-
-.index-register .agency-btn {
-    background: linear-gradient(45deg, #ffb74d, #ff9800); /* slightly stronger orange */
-    color: white; /* make text visible */
-}
-
-.index-register .agency-btn:hover {
-    transform: scale(1.05);
+.navbar .btn {
+    margin-left: 10px;
 }
